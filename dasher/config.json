@@ -5,9 +5,10 @@
   "description": "Amazon Dash button support",
   "startup": "before",
   "boot": "auto",
-  "url": "https://github.com/james-fry/hassio-addons/tree/master/dasher",
+  "url": "https://github.com/marcolintrek/hassio-addons/tree/master/dasher",
   "map": ["config:rw", "ssl"],
   "host_network": "True",
   "options": {},
-  "schema": {}
+  "schema": {},
+  "arch": ["armv7"]
 }
